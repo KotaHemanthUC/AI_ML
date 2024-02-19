@@ -27,3 +27,11 @@ Metrics
 Core Research : BERT 
 
 Applied Research : Use the Core Research 
+
+MLops Tools :
+
+https://mlops-guide.github.io/MLOps/Monitoring/
+
+OpenScale, OpenShift, 
+SeldonCore
+TensorFlow Extended
