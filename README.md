@@ -38,3 +38,4 @@ TensorFlow Extended
 
 Mamba Former: 
 Doesn't need position encoding like Transformers. 
+More Language Model Specific. 
