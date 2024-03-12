@@ -1,0 +1,14 @@
+(a) The performance issue observed in 
+the parallel region is false sharing. 
+False sharing occurs when multiple 
+threads or CPUs modify variables 
+that reside on the same cache line, 
+leading to unnecessary cache 
+coherence traffic even though 
+the variables themselves are not 
+logically related. In this case, 
+the variable partsumID is being 
+updated by multiple threads 
+concurrently, potentially 
+causing false sharing due to cache line 
+invalidations and updates.
