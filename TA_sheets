@@ -12,3 +12,14 @@ updated by multiple threads
 concurrently, potentially 
 causing false sharing due to cache line 
 invalidations and updates.
+
+(b) Two methods to improve the performance issue of false sharing are:
+ Hardware Solution:
+Cache Line Padding: By adding padding between variables that are prone to false sharing, each variable can be placed on a separate cache line, reducing the likelihood of multiple threads accessing the same cache line simultaneously.
+Pro: Padding is a simple and effective hardware-based solution that can be implemented without changing the software.
+Con: Padding may lead to increased memory consumption and cache pollution if not carefully managed, especially in scenarios where memory usage is critical.
+ Software Solution:
+Thread Affinity: Assigning specific threads to specific CPU cores can help reduce false sharing by ensuring that threads accessing shared data are running on separate physical cores with dedicated caches.
+Pro: Thread affinity can optimize cache utilization and reduce cache coherence overhead by minimizing cross-core communication.
+Con: Implementing thread affinity requires careful management of thread assignments and may not always be feasible in dynamic or heterogeneous computing environments.
+By implementing a combination of hardware-based cache line padding and software-based thread affinity, the performance impact of false sharing in parallel regions can be mitigated effectively, improving overall execution efficiency and scalability.
