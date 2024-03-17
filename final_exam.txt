@@ -1,0 +1,6 @@
+Embedded System Modeling Course:
+
+- The course covering about engineer daily dialogues like using Artificial Intelligence, Boeing case, Data mining etc. 
+- Coming from Computer Science background it never occurred to me that Data mining, Internet providers, 
+Technology have historically been influencing people without due process
+- https://newport.eecs.uci.edu/~doemer/w20_eecs222/Lecture17_SystemC_Part3.pdf
