@@ -41,3 +41,14 @@ Doesn't need position encoding like Transformers.
 More Language Model Specific. 
 
 https://docs.google.com/document/d/1HJAAAc9i_5UjwiHQ2hcy6BYypNRIP9T3kOfMQbywycs/edit?usp=sharing
+
+Highlights :
+-----------
+Climax : https://arxiv.org/pdf/2301.10343
+Variation of Vision Transformers
+Variable Aggregation : ℎ × 𝑤, unified tokens with universal semantics
+Variable Tokenization : 𝑉 × ℎ × 𝑤 × 𝐷
+Aggregation : 𝑉 × ℎ × 𝑤 to ℎ × 𝑤
+
+
+
