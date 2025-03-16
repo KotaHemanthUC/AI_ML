@@ -66,3 +66,4 @@ FourCastNet:
 PDE Solvers for Battery, NaiveStocks etc : 
 -------------------------------------------
 https://github.com/pdearena/pdearena/tree/main
+
